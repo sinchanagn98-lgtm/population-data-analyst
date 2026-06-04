@@ -5,7 +5,7 @@ import plotly.express as px
 st.title("📊 Advanced Analytics")
 
 df = pd.read_csv(
-    "dataset/world_population.csv"
+    "countries-continents-capitals.csv"
 )
 
 # Scatter Chart
