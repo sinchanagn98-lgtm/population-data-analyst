@@ -8,7 +8,7 @@ from utils.insights import (
 st.title("🧠 AI Insights")
 
 df = pd.read_csv(
-    "dataset/world_population.csv"
+    "countries-continents-capitals.csv"
 )
 
 insights = generate_insights(df)
