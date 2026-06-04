@@ -11,8 +11,7 @@ st.set_page_config(
 )
 
 # ---------------- LOAD DATA ----------------
-df = pd.read_csv("dataset/world_population.csv")
-
+df = pd.read_csv("continents-capitals.csv")
 # ---------------- CUSTOM CSS ----------------
 st.markdown("""
 <style>
